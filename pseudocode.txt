@@ -1,0 +1,81 @@
+“Goin the Distance”
+
+
+The objective of the “Goin the Distance”  program is to take in 2 sets of coordinates and measure the distance between them in three different ways.  
+
+
+The earth is a 3-Dimentsional object that is not uniform.  The earth is often thought of as a geoid.  We estimate the shape of the earth as an ellipsoid.  There is a whole scientific field that is dedicated to approximating the shape of the earth as an ellipsoid called geodesy.  The purpose of this script is not to determine the most accurate shape. 
+
+
+Measuring distance between two sets of points seems like an easy feat, however, it’s not.  Measuring distance of two places on earth means you must take into consideration the shape of the earth right? Well not quite.  
+
+
+There are three main ways to measure coordinates on the earth.  
+
+
+One measurement assumes a 2-D cartesian coordinate system or cartesian grid.  We call these measurements, “Flat Surface” measurements. 
+
+
+Another measurement models the earth as a sphere and measures the distance between two sets of coordinates (latitude and longitude) using a great circle measurement.  This method is called the Haversine Formula.  
+
+
+The third measurement models the earth as a spheroid and measures the distance between two sets of coordinates utilizing the azimuth.  This method is called Vincenty’s Formula. 
+
+
+
+It’s a widely held notion that one method is in fact better than the other.  To rank the three methods in terms of accuracy the order is as follows: 
+
+
+Most accurate to least accurate:
+
+	Vincenty’s Formula
+
+	Haversine Formulae 
+
+	Flat Surface Measurements
+
+
+
+“Goin the Distance” program is an education and research tool that can allow one to see mathematically and programmatically  the difference between the three methods for measuring distance.  
+
+
+
+The first part of the program as the user for two sets or coordinates and converts the input into integers.  
+
+	In the user inputs the incorrect values 
+
+	the program will prompt user to input correct values .
+
+	 
+
+	incorrect values are defined as:
+
+		values that have too few or too many numbers
+
+		numbers of range
+
+		input that is alpha
+
+		input that has special characters or other garbage 
+
+	
+
+for instance too few numbers, numbers out of range, alphas, special characters,
+
+	
+
+	The user will be prompted to input 2 valid set of coordinates before moving on. 
+
+
+The user will then confirm the that infact the two sets of coordinates are correct
+
+	If the sets of coordinates are incorrect, the program will allow for the user to overwrite one or both of the saved coordinate pairs. 
+
+The input of coordinates will need to be tranformed or converted to radian's.   
+    
+    The conversion will be a functions 
+
+
+The next part of the program is really where the “magic happens.”
+
+	In brief method of calculating the distance will become a mathematical function that will pass through the necessary elements and output or return a value.  The returned values of each of the three functions will be printed to the user.
