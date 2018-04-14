@@ -5,6 +5,6 @@ Goin' the Distance is a python program that allows the user to make distance mea
 Oh yeah, this was written with python 2.7 not 3 . HAVE FUN! 
 <br><br>
 <a href="mailto:awade@baygeo.com?Subject=GeoCorps">Questions, comments, concerns?</a>
-<center>
-<img src='https://postimg.cc/image/9u2c5dkol/' />
+<center>  
+<img src='https://s18.postimg.cc/p2s9j5ed5/Screen_Shot_2018-04-14_at_4.30.41_PM.png' />
 </center>
